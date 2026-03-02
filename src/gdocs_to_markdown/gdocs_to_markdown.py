@@ -159,14 +159,17 @@ class GoogleDocs2Markdown:
         documents = []
         for document in documents_request["files"]:
             print(f"Found document: {document}")
-            documents.append(
-                GoogleDriveDocument(
-                    **document,
-                    markdown_body=self.get_document_markdown_content(
-                        document_id=document.get("id")
-                    ),
+            try:
+                markdown_body = self.get_document_markdown_content(document_id=document.get("id"))
+                documents.append(
+                    GoogleDriveDocument(
+                        **document,
+                        markdown_body=markdown_body,
+                    )
                 )
-            )
+            except Exception as e:
+                print(f"WARNING: Failed to export document '{document.get('name')}' (ID: {document.get('id')}): {e}")
+                continue
 
         subfolders_request = (
             self.service.files()
