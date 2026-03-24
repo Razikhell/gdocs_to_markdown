@@ -1,0 +1,36 @@
+---
+title: Olivia Zhu (S) - Op/Ed
+description: None
+updated: 2026-02-12T14:04:35.834Z
+lastModifyingUser: Olivia
+---
+
+**Face ID Is Watching You—And We Need to Stop It**
+
+Op/Ed
+
+What if I told you that you're being watched every time you walk into a store? Not by security guards, but by cameras that scan your face, turn it into a code, and check it against a database—all before you've even grabbed anything off the shelf. This isn't science fiction. This is **Face ID**, and it's already everywhere in our daily lives.
+
+Face ID is a technology that identifies people by looking at their faces. Here's how it works: a camera takes a picture of your face and measures things like the distance between your eyes, your nose, and your mouth. Then it turns all those measurements into a number code—kind of like a fingerprint, but for your face. This code gets compared to codes stored in a database to figure out who you are. Think of it like a lock and key, except the key is your face. And unlike a house key, you can never leave your face at home or put it in your pocket. You carry it everywhere, and any camera can see it. When you unlock your iPhone by looking at it, that's Face ID protecting your phone. But when stores, airports, and police departments use the same technology, they're not protecting your stuff—they're tracking **you**.
+
+So what happens as Face ID spreads from our phones to every corner of public life? The future isn't hard to predict—we're already seeing it unfold. Here are three ways this technology will change our society, and none of them are good.
+
+**First**, Face ID will make it impossible to be anonymous in public. Right now, you can walk down the street, go to a mall, or attend a concert without anyone tracking your every move. But that's changing fast. In China, the government already uses facial recognition cameras to monitor citizens constantly, linking faces to a "social credit score" that can prevent people from buying train tickets or getting jobs if their score drops too low. In the United States, companies like Clearview AI have scraped billions of photos from social media to build a database that can identify almost anyone. A 2023 report found that over 1,000 police departments across the U.S. already use facial recognition technology. Once these systems are everywhere, there's no such thing as blending into a crowd. Every store you enter, every street you walk down, every event you attend—all of it gets logged and stored.
+
+**Second**, Face ID will be used to discriminate against people, especially people of color. The technology sounds neutral—it's just math and cameras, right? But study after study shows that facial recognition makes more mistakes on Black and Brown faces than on white faces. A 2019 study by the National Institute of Standards and Technology tested 189 facial recognition systems and found that they were up to 100 times more likely to misidentify Asian and Black faces compared to white faces. This isn't just annoying—it's dangerous. In 2020, a Black man named Robert Williams was arrested in front of his family because facial recognition wrongly matched his face to a shoplifting suspect. He spent 30 hours in jail for a crime he didn't commit. As police departments use this technology more, we'll see more innocent people—disproportionately people of color—arrested, questioned, and humiliated because a computer made a mistake.
+
+**Third**, Face ID will make people afraid to speak out or protest. Democracy depends on people being able to criticize the government without fear. But if you know that cameras at a protest will scan your face, match it to your identity, and possibly put you on a watchlist, would you still go? Research from Georgetown Law found that the FBI has access to facial recognition systems that can search through 640 million photos—that's more than half of all American adults. In Hong Kong, protesters started wearing masks and using lasers to blind facial recognition cameras because they knew the government was using the technology to identify and arrest them later. When people can't gather anonymously, they stop gathering at all. Face ID doesn't just watch us—it silences us.
+
+**To be sure,** facial recognition technology isn't all bad. Supporters argue that Face ID helps catch dangerous criminals and find missing children. They point out that it can make airports more secure and help prevent terrorism. Tech companies also claim that when Face ID is used on personal devices like phones, your face data never leaves your device—it stays encrypted and private. These are real benefits, and we shouldn't dismiss them.
+
+But here's the problem: the same technology that unlocks your phone can be used to track everyone, everywhere. And the "catching criminals" argument falls apart when the technology arrests innocent people because it can't tell Black faces apart. We don't let police search everyone's home without a warrant just because it might catch some criminals—we recognize that freedom requires limits on government power. The same principle applies here. Face ID might have some benefits, but those benefits don't justify giving the government the power to track our every movement, especially when the technology is biased and the regulations don't exist yet.
+
+**So what do we do about it?** The solution is straightforward: we need to ban government use of facial recognition technology until it meets strict standards—and maybe not even then.
+
+Cities like San Francisco, Boston, and Portland have already done this. They passed laws that prohibit police departments and other government agencies from using Face ID at all. Some states are going further. In 2021, Virginia passed a law banning police from using facial recognition unless they get approval from state lawmakers first. These bans work because they recognize a simple truth: we shouldn't let the government use technology that doesn't work fairly and that threatens our basic freedoms.
+
+Here's what a good ban should look like. First, no police department or government agency can use facial recognition until independent researchers—not the companies selling the technology—prove it's at least 99.9% accurate for people of all races, genders, and ages. Second, even if the technology gets better, it should stay banned in certain situations: tracking protesters, scanning people at public meetings, or monitoring students in schools. Third, any government that breaks these rules should face serious consequences, including lawsuits and loss of funding.
+
+The technology is already here. The surveillance infrastructure is being built right now, while most of us aren't paying attention. But we still have a choice. We can decide that some conveniences aren't worth the cost—that unlocking your phone with your face is fine, but letting the government track everyone, everywhere, all the time is not.
+
+San Francisco figured this out. Boston figured this out. Your city can too. But only if you demand it.

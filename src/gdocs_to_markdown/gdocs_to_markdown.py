@@ -1,4 +1,5 @@
 import os
+import re
 
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
@@ -12,7 +13,52 @@ from pathlib import Path
 
 from pydantic import BaseModel, computed_field
 
-from string import punctuation
+
+WINDOWS_RESERVED_NAMES = {
+    "con",
+    "prn",
+    "aux",
+    "nul",
+    "com1",
+    "com2",
+    "com3",
+    "com4",
+    "com5",
+    "com6",
+    "com7",
+    "com8",
+    "com9",
+    "lpt1",
+    "lpt2",
+    "lpt3",
+    "lpt4",
+    "lpt5",
+    "lpt6",
+    "lpt7",
+    "lpt8",
+    "lpt9",
+}
+
+
+def sanitize_path_component(value: str, fallback: str) -> str:
+    """
+    Make a value safe to be used as a Windows folder/file name.
+    """
+    if not value:
+        return fallback
+
+    # Replace invalid filesystem characters with a dash to preserve readability.
+    sanitized = re.sub(r'[<>:"/\\|?*]+', "-", value)
+    sanitized = re.sub(r"\s+", " ", sanitized).strip(" .")
+    sanitized = re.sub(r"-{2,}", "-", sanitized)
+
+    if not sanitized:
+        sanitized = fallback
+
+    if sanitized.lower() in WINDOWS_RESERVED_NAMES:
+        sanitized = f"{sanitized}_"
+
+    return sanitized[:180]
 
 
 class GoogleDriveFolder(BaseModel):
@@ -25,12 +71,10 @@ class GoogleDriveFolder(BaseModel):
     @property
     def local_folder_name(self) -> str:
         """
-        As Google Drive allows the use of special characters in the folder name, this function removes them,
-        making it a valid folder name.
-        :return: folder name cleaned up from special characters
+        Convert Google Drive folder names to Windows-safe folder names.
+        :return: folder name cleaned up from unsupported path characters
         """
-        translator = str.maketrans("", "", punctuation)
-        return self.name.translate(translator)
+        return sanitize_path_component(self.name, fallback="folder")
 
 
 class GoogleDriveDocument(BaseModel):
@@ -71,12 +115,10 @@ lastModifyingUser: {self.lastModifyingUser.get("displayName").split(" ")[0]}
     @property
     def local_file_name(self) -> str:
         """
-        As Google Docs allows the use of special characters in the document names, this function removes them,
-        making it a valid name for a file.
-        :return: file name cleaned up from special characters
+        Convert Google Docs names to Windows-safe file names.
+        :return: file name cleaned up from unsupported path characters
         """
-        translator = str.maketrans("", "", punctuation)
-        return self.name.translate(translator)
+        return sanitize_path_component(self.name, fallback="document")
 
 
 class GoogleDocs2Markdown:
@@ -113,7 +155,14 @@ class GoogleDocs2Markdown:
                 flow = InstalledAppFlow.from_client_secrets_file(
                     self.credentials_file_path, self.scopes
                 )
-                creds = flow.run_local_server(port=0)
+                try:
+                    creds = flow.run_local_server(port=0)
+                except Exception as e:
+                    print(
+                        "WARNING: Localhost OAuth callback failed. Falling back to manual console auth."
+                    )
+                    print(f"Details: {e}")
+                    creds = flow.run_console()
             # Save the credentials for the next run
             with open(self.token_file_path, "w") as token:
                 token.write(creds.to_json())

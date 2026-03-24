@@ -1,0 +1,14 @@
+---
+title: Graham Owen (S) - Op/Ed
+description: None
+updated: 2026-02-17T18:26:22.854Z
+lastModifyingUser: Graham
+---
+
+**Title**
+
+Op/Ed
+
+By: Code Combat AI and Graham Owen
+
+# We stand at a crossroads with artificial intelligence. ChatGPT and similar AI tools have exploded into our daily lives, answering questions, writing essays, and even debugging code. But as these tools become more powerful, we face a critical question: How do we harness AI's benefits while protecting ourselves from its dangers? The Future is Already Here ChatGPT will only become more sophisticated. Within years, AI will likely tutor students in personalized ways, assist doctors in diagnosing diseases, and help scientists solve complex problems. It could democratize access to information and expertise that was once available only to the privileged few. But this same power creates serious risks. As AI improves, it could spread misinformation more convincingly, automate jobs without adequate safety nets, and erode critical thinking skills if we become too dependent on it. Students might graduate without learning to write, analyze, or problem-solve independently. Reducing the Harms So how do we move forward responsibly? First, education must evolve. Rather than banning AI tools, schools should teach students how to use them ethically and critically. Just as we learned to evaluate website credibility, we must learn to fact-check AI outputs and understand their limitations. Assignments should focus less on rote memorization and more on analysis, creativity, and original thinking that AI cannot replicate. Second, transparency is essential. AI companies must be open about how their systems work, what data they're trained on, and what biases they contain. When ChatGPT makes a mistake or shows bias, users deserve to understand why. Regulation should require "nutrition labels" for AI—clear information about capabilities and limitations. Third, we need guardrails. This means developing AI detection tools, establishing clear policies about appropriate use in schools and workplaces, and creating consequences for misuse. But it also means building AI systems with safety features from the start—tools that refuse to generate harmful content and that cite their sources. Finally, human judgment must remain central. AI should augment human decision-making, not replace it. Doctors should use AI to inform diagnoses, not make them automatically. Teachers should use AI to identify struggling students, not to grade essays without review. We must resist the temptation to outsource our thinking entirely.  However we can still change this, it is not too late to go back and just stop all of this. AI is amazing, but do we really need more? Maybe it would be good to stop now and leave AI where AI is at. No offence to AI.

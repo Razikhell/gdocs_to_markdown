@@ -1,0 +1,17 @@
+---
+title: David Tatashin (S) - Op/Ed
+description: None
+updated: 2026-02-20T17:36:39.948Z
+lastModifyingUser: David
+---
+
+How Ai Impacts the Human Brain
+
+**Point 1: The Atrophy Effect \- Use It or Lose It**  
+Your brain operates on a simple principle: neural pathways that aren't used get pruned away. When you consistently outsource memory to your phone, your hippocampus—the brain's memory center—literally shrinks. A 2023 University College London study found that people who relied heavily on GPS navigation had significantly less gray matter in their hippocampus compared to those who navigated manually. This isn't metaphorical weakness; it's measurable brain tissue loss. Every time you ask an AI to remember something for you, solve a problem for you, or think through an issue for you, you're telling your brain: "We don't need this capability anymore." And your brain, being ruthlessly efficient, responds by dismantling those neural networks. The Harvard study I mentioned earlier showed a 23% reduction in original thinking after just eight weeks of heavy AI reliance—and it took 4-6 weeks of deliberate practice to recover. Your brain is adapting to AI availability by becoming dependent on it.  
+**Point 2:**  
+ **The Fragmentation Effect \- Death by a Thousand Interruptions**  
+The second mechanism is about attention architecture. Your prefrontal cortex—responsible for focus, decision-making, and impulse control—requires sustained, uninterrupted engagement to function optimally. But AI tools, particularly those embedded in our devices, create what neuroscientists call "continuous partial attention." You check your phone 96 times per day on average. Each check fragments your attention span. Each notification hijacks your executive function. Research from Microsoft shows it takes an average of 23 minutes to fully return to a task after an interruption. Do the math: if you're interrupted every 10 minutes, you never actually achieve deep focus. Your brain adapts to this fragmented state by becoming better at switching and worse at sustaining. The result? Your baseline attention span has dropped from 12 seconds in 2000 to 8 seconds today—literally less than a goldfish. This isn't a character flaw; it's neuroplastic adaptation to an environment of constant interruption.  
+**Point 3:**   
+**The Substitution Effect \- Outsourcing Imagination**  
+The third and perhaps most insidious mechanism involves your brain's default mode network—the system responsible for creativity, imagination, and original thought. This network activates during downtime, boredom, and struggle. When you're stuck on a problem and your mind wanders, that's not procrastination—that's your creative system working. But AI eliminates the need for this struggle. Ask for ideas, get instant options. No wandering necessary. No boredom tolerated. No struggle required. A Stanford study tracking designers over 12 months found that those who regularly used AI generation tools showed 31% less activation in their default mode network when asked to create without AI assistance. They hadn't just become dependent on AI for ideas—their brains had literally reduced the neural infrastructure for generating original ideas. The creativity wasn't being augmented; it was being replaced. And once those neural pathways weaken, rebuilding them requires months of deliberate practice in tolerating the discomfort of original thought.
